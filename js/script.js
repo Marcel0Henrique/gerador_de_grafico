@@ -12,7 +12,7 @@ const myChart = new Chart(ctx, {
         labels: ['Dado 1', 'Dado 2'],
         datasets: [{
             label: 'Grafico',
-            data: [12, 19, 3, 5, 2, 3],
+            data: [n1.valueAsNumber, n2.valueAsNumber],
             backgroundColor: [
                 'rgba(255, 99, 132, 0.2)',
                 'rgb(255, 205, 86)'
